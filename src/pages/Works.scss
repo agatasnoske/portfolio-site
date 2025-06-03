@@ -227,6 +227,10 @@
                     background: rgba(0,0,0,0.3);
                     padding: 20px 82px 50px;
                     margin: 34px 20px;
+                    @media screen and (max-width:1079px) {
+                    padding: 5px 5px 10px;
+                    margin: 10px 0px;
+                    }
                     .modal-img-wrap {
                         display: flex;
                         margin-right: -30px;
@@ -237,6 +241,10 @@
                 }
                 .modal-description {
                     font-size: 14px;
+                    @media screen and (max-width:1079px) {
+                        height: 95px;
+                        overflow: scroll;
+                    }
                 }
             }
         }
